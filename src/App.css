@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
+  background-size: cover;
+  font-family: "Nunito";
+}
+
+.App {
+  /* margin: auto; */
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.search-bar {
+  margin-top: 10%;
+
+  width: 30%;
+}
+.search-bar input {
+  font-size: 1.2rem;
+
+  width: 100%;
+  outline: none;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 5px 20px #00000047;
+  color: rgb(57, 57, 57);
+  font-weight: 500;
+  font-family: "Nunito";
+}
